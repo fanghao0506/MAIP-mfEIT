@@ -1,0 +1,24 @@
+{
+  "case": "case2_sim",
+  "geometry": "circular",
+  "config": {
+    "epochs": 950,
+    "learning_rate": 0.00012,
+    "seed": 2
+  },
+  "device": "cuda",
+  "torch_version": "2.5.1+cu121",
+  "numpy_version": "2.3.1",
+  "parameter_count": 57938856,
+  "preparation_seconds": 1.1460695999994641,
+  "optimization_seconds": 102.80458799999906,
+  "initial_voltage_l1": 0.43109044432640076,
+  "final_voltage_l1": 0.006560498848557472,
+  "relative_voltage_l2": 0.08628802001476288,
+  "frequency_labels": [
+    "Frequency 1",
+    "Frequency 2",
+    "Frequency 3",
+    "Frequency 4"
+  ]
+}
