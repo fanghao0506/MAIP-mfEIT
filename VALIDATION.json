@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-15",
+  "default_case": "case2_sim",
+  "default_configuration": {
+    "epochs": 950,
+    "learning_rate": 0.00012,
+    "seed": 2
+  },
+  "default_run": {
+    "device": "NVIDIA GeForce RTX 4090 Laptop GPU",
+    "parameter_count": 57938856,
+    "optimization_seconds": 102.80458799999906,
+    "initial_voltage_l1": 0.43109044432640076,
+    "final_voltage_l1": 0.006560498848557472,
+    "relative_voltage_l2": 0.08628802001476288
+  },
+  "cpu_thorax_smoke": {
+    "case": "DBLung_sim",
+    "epochs": 2,
+    "passed": true
+  },
+  "unit_checks_passed": 5,
+  "original_source_parity": {
+    "active_network_classes_ast_identical": true,
+    "seeded_state_dict_sha256": "18a77a8441444769661b1b0006a198845a611fc7e97f0e9cb7454b906e494e77",
+    "cpu_network_output_bit_identical": true,
+    "original_default_voltage_bit_identical": true,
+    "normalization_bit_identical": true,
+    "projections_bit_identical": true
+  },
+  "tested_packages": {
+    "torch": "2.5.1+cu121",
+    "numpy": "2.3.1",
+    "matplotlib": "3.9.2"
+  }
+}

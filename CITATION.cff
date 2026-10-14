@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, data or method, please cite the MAIP paper below."
+title: "MAIP: Multifrequency EIT Reconstruction"
+type: software
+authors:
+  - family-names: Fang
+    given-names: Hao
+license: MIT
+url: "https://github.com/fanghao0506/MAIP-mfEIT"
+preferred-citation:
+  type: article
+  title: "Multifrequency Electrical Impedance Tomography Reconstruction With Multibranch Attention Image Prior"
+  authors:
+    - family-names: Fang
+      given-names: Hao
+    - family-names: Liu
+      given-names: Zhe
+    - family-names: Feng
+      given-names: Yi
+    - family-names: Qiu
+      given-names: Zhen
+    - family-names: Bagnaninchi
+      given-names: Pierre-Olivier
+    - family-names: Yuan
+      given-names: Siyi
+    - family-names: He
+      given-names: Huaiwu
+    - family-names: Yang
+      given-names: Yunjie
+  journal: "IEEE Internet of Things Journal"
+  year: 2026
+  volume: "13"
+  issue: "2"
+  start: 1862
+  end: 1874
+  doi: "10.1109/JIOT.2025.3624228"
+  url: "https://ieeexplore.ieee.org/abstract/document/11214340"
