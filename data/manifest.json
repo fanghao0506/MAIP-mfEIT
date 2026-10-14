@@ -1,0 +1,172 @@
+{
+  "dataset": "Authors' MAIP multifrequency EIT reconstruction inputs",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "voltage_axis_order": [
+    "measurement",
+    "frequency_channel"
+  ],
+  "frequency_channels": 4,
+  "frequency_order": "Original source-file column order; numerical frequency labels were not supplied with these files",
+  "default_case": "case2_sim",
+  "default_matches_original_inference": true,
+  "ground_truth_included": false,
+  "cases": {
+    "case1_sim": {
+      "geometry": "circular",
+      "type": "simulation",
+      "voltages_shape": [
+        104,
+        4
+      ],
+      "source_file": "V_case1_sim.txt",
+      "frequency_labels": [
+        "Frequency 1",
+        "Frequency 2",
+        "Frequency 3",
+        "Frequency 4"
+      ]
+    },
+    "case2_sim": {
+      "geometry": "circular",
+      "type": "simulation",
+      "voltages_shape": [
+        104,
+        4
+      ],
+      "source_file": "V_case2_sim.txt",
+      "frequency_labels": [
+        "Frequency 1",
+        "Frequency 2",
+        "Frequency 3",
+        "Frequency 4"
+      ]
+    },
+    "case3_sim": {
+      "geometry": "circular",
+      "type": "simulation",
+      "voltages_shape": [
+        104,
+        4
+      ],
+      "source_file": "V_case3_sim.txt",
+      "frequency_labels": [
+        "Frequency 1",
+        "Frequency 2",
+        "Frequency 3",
+        "Frequency 4"
+      ]
+    },
+    "DBLung_sim": {
+      "geometry": "thorax",
+      "type": "simulation",
+      "voltages_shape": [
+        104,
+        4
+      ],
+      "source_file": "V_DBLung_sim.txt",
+      "frequency_labels": [
+        "Frequency 1",
+        "Frequency 2",
+        "Frequency 3",
+        "Frequency 4"
+      ]
+    },
+    "Lung_realworld": {
+      "geometry": "thorax",
+      "type": "measurement",
+      "voltages_shape": [
+        104,
+        4
+      ],
+      "source_file": "V_Lung_realworld.txt",
+      "frequency_labels": [
+        "Frequency 1",
+        "Frequency 2",
+        "Frequency 3",
+        "Frequency 4"
+      ]
+    },
+    "test_realworld": {
+      "geometry": "circular",
+      "type": "measurement",
+      "voltages_shape": [
+        104,
+        4
+      ],
+      "source_file": "V_test_realworld.txt",
+      "frequency_labels": [
+        "Frequency 1",
+        "Frequency 2",
+        "Frequency 3",
+        "Frequency 4"
+      ]
+    },
+    "test_sim": {
+      "geometry": "circular",
+      "type": "simulation",
+      "voltages_shape": [
+        104,
+        4
+      ],
+      "source_file": "V_test_sim.txt",
+      "frequency_labels": [
+        "Frequency 1",
+        "Frequency 2",
+        "Frequency 3",
+        "Frequency 4"
+      ]
+    },
+    "zebrafish_realworld": {
+      "geometry": "circular",
+      "type": "measurement",
+      "voltages_shape": [
+        104,
+        4
+      ],
+      "source_file": "V_zebrafish_realworld.txt",
+      "frequency_labels": [
+        "Frequency 1",
+        "Frequency 2",
+        "Frequency 3",
+        "Frequency 4"
+      ]
+    }
+  },
+  "source_sha256": {
+    "code/models/MBUnets_LayerNorm.py": "b19b2683e2d631ec73c0e412adbb1bbcc161d88120eef4bc4aa08a287bf331cb",
+    "MAIP-data/Sensitivity Matrix/Sensitivity16_64.txt": "d912d4b006259e38a45fd1c20181f786f32eed0f53eb0d85b930af8a9396b289",
+    "MAIP-data/Projection Matrix/pos.txt": "ba6331f20c7145a9ea26efa72bd80d5f2ef83d39d736cda383ad2224c76cd4dd",
+    "MAIP-data/Projection Matrix/projection_matrix_eit2rect.npy": "c7467ecf0f029e29c993fc76615a2554e34b45cbdc5f297afa9c713bf001b529",
+    "MAIP-data/Projection Matrix/projection_matrix_rect2eit.npy": "1612e50af8f406a15324013d30adb6b66fa55d54db19cf107e53e208f068c30a",
+    "MAIP-data/Sensitivity Matrix/sensitivity_thorax.txt": "ffed17c2c8e01d91096c898568aafc75c6b8b0e63785d652486c1f3c7a2cf89b",
+    "MAIP-data/Projection Matrix/pos_thorax.txt": "5f7165a259c0beb8920b42a19a7935377c418f54261bd5d18e118fb1e44fc0d4",
+    "MAIP-data/Projection Matrix/projection_matrix_thorax_eit2rect.npy": "ae1525cbfa0f20967d7d854e67c241e48e4ccb81331d82e40c88f2f262969fe0",
+    "MAIP-data/Projection Matrix/projection_matrix_thorax_rect2eit.npy": "d890d3f1dcc40dc3f1f9d02e0e4011d44264cc82fc3f8dfc1347b02b209990c4",
+    "MAIP-data/Voltage Measurements/V_case1_sim.txt": "efe8014a567ba7afdcf41b50d56905b44f70fe489f658c65b268ac82316f2372",
+    "MAIP-data/Voltage Measurements/V_case2_sim.txt": "7effed6c1bed52ce6be6700a218682a8ffb0b9a7e9ba31b4465105061b84125e",
+    "MAIP-data/Voltage Measurements/V_case3_sim.txt": "d3e4f32b866796c89ee11593d08823f8702646801230c3af364793f556cc981b",
+    "MAIP-data/Voltage Measurements/V_DBLung_sim.txt": "4fac3653acd339a78593c7cf29df0114baa1e8139491a0260f8fa646f22372f6",
+    "MAIP-data/Voltage Measurements/V_Lung_realworld.txt": "4398a49ad17cc535627c144a453161a46f8c354c548f672548eb17b5972a5752",
+    "MAIP-data/Voltage Measurements/V_test_realworld.txt": "b71123f8fce48b748c24e0e1d907d2da8265c191bef7cbbd7341695e8399fc92",
+    "MAIP-data/Voltage Measurements/V_test_sim.txt": "4997eab80931b385052b9cd67c3f2cd1244ee19c76fe89509c3ab26c5ba464c9",
+    "MAIP-data/Voltage Measurements/V_zebrafish_realworld.txt": "6a5a19e47c86c7922603fc596e19101ddfb154342d5d29f0bd607af910b22f7e",
+    "code/simulation_data/V_P6.txt": "7effed6c1bed52ce6be6700a218682a8ffb0b9a7e9ba31b4465105061b84125e"
+  },
+  "files": {
+    "circular.npz": {
+      "sha256": "55e86039f673ddd5d25e23d59c8eb60e7fbd3738f2a6633f45ba6e6a342eb8e1",
+      "bytes": 2714147
+    },
+    "thorax.npz": {
+      "sha256": "7e7e22729661563b150ce41e8f6088454d08be9dcd63a7085bd68251e778cdad",
+      "bytes": 2847590
+    },
+    "voltages.npz": {
+      "sha256": "8c251520032a4b24a280b795cd89101d1403756185a2b05e86cd1eacd10cf15c",
+      "bytes": 14320
+    }
+  }
+}
